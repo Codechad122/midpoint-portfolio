@@ -16,7 +16,8 @@ import HomeFeaturesList from './HomeFeaturesList.vue'
             </h1>
         </div>
         <br/>
-        <div>
+        <div class="bg-green-100 h-96">
+            image will go here
 
         </div>
         <br />
