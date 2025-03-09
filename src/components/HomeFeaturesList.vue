@@ -8,7 +8,7 @@ const data = [
 </script>
 
 <template>
-    <div v-for="n in data" :key="n">
+    <div v-for="n in data" :key="n" class="">
         <div class="card bg-base-100 w-96 shadow-sm h-96">
             <figure class="px-10 pt-10">
                 <img
@@ -25,6 +25,4 @@ const data = [
             </div>
         </div>
     </div>
-    
-
 </template>

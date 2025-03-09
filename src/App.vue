@@ -10,6 +10,6 @@ import About from './components/About.vue'
   </header>
 
   <main>
-    <Home />
+    <RouterView />
   </main>
 </template>

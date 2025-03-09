@@ -15,9 +15,9 @@
         </div>
         <div class="flex items-center">
             <ul class="menu menu-horizontal px-1">
-            <li><a>Products</a></li>
-            <li><a>About</a></li>
-            <li><a>Contact</a></li>
+                <li><RouterLink to="/about">Products</RouterLink></li>
+                <li><RouterLink to="/about">About</RouterLink></li>
+                <li><RouterLink to="/contact">Contact</RouterLink></li>
             </ul>
             <button class="flex items-center gap-2 btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl p-2">
                 <p>{{ cartItems }}</p>

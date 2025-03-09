@@ -9,14 +9,21 @@ import HomeFeaturesList from './HomeFeaturesList.vue'
     <header>
         <Navbar />
     </header>
-    <main class="w-full  mx-auto p-4 flex flex-col">
+    <main class="max-w-full mx-auto p-4 flex flex-col">
         <div class="flex justify-center">
             <h1 class="text-2xl">
                 The Best Coffee That Money Can Buy
             </h1>
         </div>
         <br/>
+        <div>
 
+        </div>
+        <br />
+        <div class="flex justify-center">
+            <h2 class="text-2xl">Featured Products</h2>
+        </div>
+        <br />
         <div class="flex gap-4 justify-center">
             <HomeFeaturesList/>
         </div>
