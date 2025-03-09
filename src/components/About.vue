@@ -1,7 +1,11 @@
 <script setup>
+    import Navbar from './Navbar.vue'
 
 </script>
 
 <template>
-    <div>Oh look some styles</div>
+    <header>
+        <Navbar />
+    </header>
+    <div>I am the about page</div>
 </template>
