@@ -1,5 +1,6 @@
 <script setup>
 import Navbar from './Navbar.vue'
+import Footer from './Footer.vue'
 
 </script>
 
@@ -7,5 +8,9 @@ import Navbar from './Navbar.vue'
     <header>
         <Navbar />
     </header>
+    <main class="h-screen">
+
+    </main>
+    <Footer />
 
 </template>
