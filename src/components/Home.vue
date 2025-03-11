@@ -2,7 +2,6 @@
 import Navbar from './Navbar.vue'
 import Footer from './Footer.vue'
 import HomeFeaturesList from './HomeFeaturesList.vue'
-
 </script>
 
 <template>
