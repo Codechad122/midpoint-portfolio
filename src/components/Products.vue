@@ -1,6 +1,5 @@
 <script setup>
 import Navbar from './Navbar'
-import 
 </script>
 
 <template>
