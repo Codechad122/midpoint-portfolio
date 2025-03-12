@@ -2,17 +2,17 @@
 import Product from './Product.vue'
 import Navbar from './Navbar.vue'
 const data = [
-    {title: "Product 1", info: "Product info", button: "Click me"},
-    {title: "Product 2", info: "Product info", button: "Click me"},
-    {title: "Product 3", info: "Product info", button: "Click me"},
-    {title: "Product 4", info: "Product info", button: "Click me"},
-    {title: "Product 5", info: "Product info", button: "Click me"},
-    {title: "Product 6", info: "Product info", button: "Click me"},
-    {title: "Product 7", info: "Product info", button: "Click me"},
-    {title: "Product 8", info: "Product info", button: "Click me"},
-    {title: "Product 9", info: "Product info", button: "Click me"},
-    {title: "Product 10", info: "Product info", button: "Click me"},
-    {title: "Product 11", info: "Product info", button: "Click me"}
+    {title: "Product 1", info: "Product info"},
+    {title: "Product 2", info: "Product info"},
+    {title: "Product 3", info: "Product info"},
+    {title: "Product 4", info: "Product info"},
+    {title: "Product 5", info: "Product info"},
+    {title: "Product 6", info: "Product info"},
+    {title: "Product 7", info: "Product info"},
+    {title: "Product 8", info: "Product info"},
+    {title: "Product 9", info: "Product info"},
+    {title: "Product 10", info: "Product info"},
+    {title: "Product 11", info: "Product info"}
     ]
 </script>
 
