@@ -15,7 +15,7 @@
         </div>
         <div class="flex items-center">
             <ul class="menu menu-horizontal px-1">
-                <li><RouterLink to="/about">Products</RouterLink></li>
+                <li><RouterLink to="/products">Products</RouterLink></li>
                 <li><RouterLink to="/about">About</RouterLink></li>
                 <li><RouterLink to="/contact">Contact</RouterLink></li>
             </ul>

@@ -24,7 +24,7 @@ import HomeFeaturesList from './HomeFeaturesList.vue'
             <h2 class="text-2xl">Featured Products</h2>
         </div>
         <br />
-        <div class="flex gap-4 justify-center">
+        <div class="flex max-w-full bg-green-100 flex-row gap-4 overflow-scroll mx-auto">
             <HomeFeaturesList/>
         </div>
 

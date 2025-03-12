@@ -8,8 +8,8 @@ const data = [
 </script>
 
 <template>
-    <div v-for="n in data" :key="n" class="">
-        <div class="card bg-base-100 w-96 shadow-sm h-96">
+    <div v-for="n in data" :key="n" class="max-w-full">
+        <div class="flex card bg-base-100 w-96 shadow-sm h-96">
             <figure class="px-10 pt-10">
                 <img
                 src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
