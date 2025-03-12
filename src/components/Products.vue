@@ -10,7 +10,7 @@ const data = [
     <header>
         <Navbar />
     </header>
-    <main>
+    <main class="max-w-full mx-auto p-4 flex flex-col">
         <div class="h2">
             <h2 class="text-2xl">Our Products</h2>
             <div v-for="n in data" :key="n">

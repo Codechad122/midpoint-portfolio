@@ -10,7 +10,7 @@ import Navbar from './Navbar.vue'
         <h2 class="text-2xl">Get in touch</h2>
         <p class="text-lg">Hey there, fill out this form</p>
 
-        <form action="submit" class="flex flex-col gap-4 shadow-md p-4 bg-stone-200">
+        <form action="submit" class="text-black flex flex-col gap-4 shadow-md p-4 bg-stone-200">
             <div class="flex gap-4">
                 <input type="text" placeholder="Name" class="shadow-inner bg-white px-4">
                 <input type="text" placeholder="Email" class="shadow-inner bg-white px-4">
