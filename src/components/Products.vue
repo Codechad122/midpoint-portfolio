@@ -1,6 +1,7 @@
 <script setup>
 import Product from './Product.vue'
 import Navbar from './Navbar.vue'
+
 const data = [
     {title: "Product 1", info: "Product info", link: "/products/1"},
     {title: "Product 2", info: "Product info", link: "/products/2"},
