@@ -4,6 +4,7 @@
     const props = defineProps({
         title: String,
         info: String,
+        link: String,
     })
 
 </script>
@@ -20,7 +21,7 @@
             <h2 class="card-title">{{ props.title }}</h2>
             <p>{{ props.info }}</p>
             <div class="card-actions">
-            <button class="btn btn-primary">Click Me</button>
+            <button class="btn btn-primary"><a :href="props.link">Click Me</a></button>
             </div>
         </div>
     </div>
