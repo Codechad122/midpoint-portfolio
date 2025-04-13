@@ -15,9 +15,11 @@
         </div>
         <div class="flex items-center">
             <ul class="menu menu-horizontal px-1">
-                <li><RouterLink to="/products">Products</RouterLink></li>
-                <li><RouterLink to="/about">About</RouterLink></li>
-                <li><RouterLink to="/contact">Contact</RouterLink></li>
+                <div class="flex">
+                    <li><RouterLink to="/products">Products</RouterLink></li>
+                    <li><RouterLink to="/about">About</RouterLink></li>
+                    <li><RouterLink to="/contact">Contact</RouterLink></li>
+                </div>
             </ul>
             <div class="drawer drawer-end z-50">
                 <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
