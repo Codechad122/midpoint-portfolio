@@ -11,7 +11,7 @@
 </script>
 
 <template>
-    <div class="card bg-base-100 w-96 shadow-sm h-96">
+    <div class="card bg-[#221518] w-96 shadow-sm h-96">
         <figure class="px-10 pt-10">
             <img
             :src="props.image"

@@ -8,14 +8,14 @@ import HomeFeaturesList from './HomeFeaturesList.vue'
     <header>
         <Navbar />
     </header>
-    <main class="max-w-full mx-auto p-4 flex flex-col">
+    <main class="max-w-full mx-auto p-4 flex flex-col bg-[#54372B]">
         <div class="flex justify-center">
             <h1 class="text-2xl">
                 The Best Coffee That Money Can Buy
             </h1>
         </div>
         <br/>
-        <div class="bg-green-100 h-96">
+        <div class="bg-[#F7E1BC] h-96">
             image will go here
 
         </div>
@@ -24,7 +24,7 @@ import HomeFeaturesList from './HomeFeaturesList.vue'
             <h2 class="text-2xl">Featured Products</h2>
         </div>
         <br />
-        <div class="flex max-w-full bg-green-100 flex-row gap-4 overflow-scroll mx-auto">
+        <div class="flex max-w-full bg-[#54372B] flex-row gap-4 overflow-scroll mx-auto">
             <HomeFeaturesList/>
         </div>
 

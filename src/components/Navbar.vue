@@ -9,7 +9,7 @@
 </script>
 
 <template>
-    <div class="navbar bg-base-100 shadow-sm">
+    <div class="navbar bg-[#54372B] text-[#F7E1BC] shadow-sm">
         <div class="flex-1">
             <a class="btn btn-ghost text-xl"><RouterLink to="/">Store</RouterLink></a>
         </div>

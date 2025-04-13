@@ -21,10 +21,10 @@ const data = [
     <header>
         <Navbar />
     </header>
-    <main class="max-w-full mx-auto p-4 flex flex-col">
+    <main class="max-w-full mx-auto p-4 flex flex-col bg-[#54372B]">
         <div class="h2">
-            <h2 class="text-2xl text-center">Our Products</h2>
-            <div class="grid grid-cols-3 gap-4 bg-green-100 p-4">
+            <h2 class="text-2xl text-center text-[#F7E1BC]">Our Products</h2>
+            <div class="grid grid-cols-3 gap-4 bg-[#54372B] p-4">
                 <div v-for="n in data" class="flex justify-center" :key="n">
                     <Product :title="n.title" :info="n.info" :link="n.link" :image="n.image"/>
                 </div>
