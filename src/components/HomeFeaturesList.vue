@@ -2,7 +2,7 @@
 const data = [
     {title: "Discover Our Premium Coffee Selection", info: "Explore our curated collection of the finest coffees, each crafted to deliver a rich and unparalleled flavor experience.", button: "Shop Now", image: "/Kenyan-AA-medium-roast.jpg"},
     {title: "Experience Artisanal Coffee Craftsmanship", info: "Delve into the world of artisanal coffee, where every brew is a masterpiece of flavor and quality.", button: "Learn More", image: "/Sumatra-Mandheling-dark-roast.jpg"},
-    {title: "Elevate Your Coffee Ritual", info: "Transform your daily coffee routine with our exceptional brews, designed for true coffee connoisseurs.", button: "Browse Collection", image:"/public/Vietnamese-Arabica-light-roast.jpg"}
+    {title: "Elevate Your Coffee Ritual", info: "Transform your daily coffee routine with our exceptional brews, designed for true coffee connoisseurs.", button: "Browse Collection", image:"/Vietnamese-Arabica-light-roast.jpg"}
 ]
 
 </script>
