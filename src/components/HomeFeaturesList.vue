@@ -1,8 +1,8 @@
 <script setup>
 const data = [
-    {title: "Discover Our Premium Coffee Selection", info: "Explore our curated collection of the finest coffees, each crafted to deliver a rich and unparalleled flavor experience.", button: "Shop Now"},
-    {title: "Experience Artisanal Coffee Craftsmanship", info: "Delve into the world of artisanal coffee, where every brew is a masterpiece of flavor and quality.", button: "Learn More"},
-    {title: "Elevate Your Coffee Ritual", info: "Transform your daily coffee routine with our exceptional brews, designed for true coffee connoisseurs.", button: "Browse Collection"}
+    {title: "Discover Our Premium Coffee Selection", info: "Explore our curated collection of the finest coffees, each crafted to deliver a rich and unparalleled flavor experience.", button: "Shop Now", image: "/Kenyan-AA-medium-roast.jpg"},
+    {title: "Experience Artisanal Coffee Craftsmanship", info: "Delve into the world of artisanal coffee, where every brew is a masterpiece of flavor and quality.", button: "Learn More", image: "/Sumatra-Mandheling-dark-roast.jpg"},
+    {title: "Elevate Your Coffee Ritual", info: "Transform your daily coffee routine with our exceptional brews, designed for true coffee connoisseurs.", button: "Browse Collection", image:"/public/Vietnamese-Arabica-light-roast.jpg"}
 ]
 
 </script>
@@ -12,8 +12,8 @@ const data = [
         <div class="card bg-[#221518] w-96 shadow-sm h-96">
             <figure class="px-10 pt-10">
                 <img
-                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                alt="Shoes"
+                :src="n.image"
+                :alt="n.title"
                 class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">

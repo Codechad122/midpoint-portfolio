@@ -100,9 +100,9 @@ const mapping = {
     <header>
         <Navbar />
     </header>
-    <main class="grid grid-cols-2 h-screen gap-4 p-4">
+    <main class="grid grid-cols-2 h-screen gap-4 p-4 bg-[#54372B]">
         
-        <div class="card bg-green-100 shadow-sm h-96 ">
+        <div class="card shadow-sm h-96 ">
             <figure class="px-10 pt-10">
                 <img
                 :src="mapping[id].image"
@@ -110,10 +110,8 @@ const mapping = {
                 class="rounded-xl" />
             </figure>
         </div>
-        
-        
 
-        <div class="bg-green-100 p-4">
+        <div class="text-[#F7E1BC] p-4">
             <h2 class="text-center text-2xl">{{ mapping[id].title }}</h2>
             <div class="flex flex-col gap-4">
                 <span class="text-lg font-bold">${{ mapping[id].price }}</span>

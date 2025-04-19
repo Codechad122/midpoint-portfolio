@@ -10,8 +10,10 @@
 
 <template>
     <div class="navbar bg-[#54372B] text-[#F7E1BC] shadow-sm">
-        <div class="flex-1">
-            <a class="btn btn-ghost text-xl"><RouterLink to="/">Store</RouterLink></a>
+        <div class="flex-1 item center">
+            <a class="btn btn-ghost text-xl"><RouterLink to="/">
+                <img src="/brew_haven_logo.png"  width="64" class="p-2"/>
+            </RouterLink></a>
         </div>
         <div class="flex items-center">
             <ul class="menu menu-horizontal px-1">

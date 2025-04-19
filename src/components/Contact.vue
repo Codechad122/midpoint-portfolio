@@ -6,7 +6,7 @@ import Navbar from './Navbar.vue'
     <header>
         <Navbar />
     </header>
-    <div class="flex flex-col mx-auto  gap-4 justify-center items-center p-4">
+    <div class="bg-[#54372B] text-[#F7E1BC] h-screen flex flex-col mx-auto  gap-4 justify-center items-center p-4">
         <h2 class="text-2xl">Get in touch</h2>
         <p class="text-lg">Hey there, fill out this form</p>
 
