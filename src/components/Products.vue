@@ -1,6 +1,8 @@
 <script setup>
 import Product from './Product.vue'
 import Navbar from './Navbar.vue'
+import Footer from './Footer.vue';
+
 
 const data = [
     {title: "Product 1", info: "Product info", link: "/products/1", image: "/Brazilian-Santos-light.jpg"},
