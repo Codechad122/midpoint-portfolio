@@ -34,4 +34,5 @@ const data = [
             </div>
         </div>
     </main>
+    <Footer />
 </template>

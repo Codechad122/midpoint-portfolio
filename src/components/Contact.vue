@@ -21,5 +21,5 @@ import Navbar from './Navbar.vue'
             <button class="btn btn-sm">Submit</button>
         </form>
     </div>
-
+    <Footer />
 </template>

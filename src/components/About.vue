@@ -1,5 +1,6 @@
 <script setup>
-    import Navbar from './Navbar.vue'
+    import Footer from './Footer.vue';
+import Navbar from './Navbar.vue'
 
 </script>
 
@@ -8,4 +9,5 @@
         <Navbar />
     </header>
     <div>I am the about page</div>
+    <Footer />
 </template>
