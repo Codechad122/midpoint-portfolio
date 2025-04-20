@@ -15,8 +15,8 @@ import HomeFeaturesList from './HomeFeaturesList.vue'
             </h1>
         </div>
         <br/>
-        <div class="bg-[#F7E1BC] h-96">
-            image will go here
+        <div class="">
+            <img src="/Brew_haven_home_image.jpeg"/>
 
         </div>
         <br />
