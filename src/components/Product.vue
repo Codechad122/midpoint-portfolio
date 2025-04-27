@@ -16,7 +16,7 @@
             <img
             :src="props.image"
             alt="Shoes"
-            class="rounded-xl" />
+            class="rounded-xl p-4" />
         </figure>
         <div class="card-body items-center text-center">
             <h2 class="card-title">{{ props.title }}</h2>
