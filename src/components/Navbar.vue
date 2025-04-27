@@ -43,7 +43,11 @@
                             <li>Item 2</li>
                         </ul>
                         <p>Price: $0.00</p>
-                        <button class="btn btn-sm">Purchase</button>
+                        <button class="btn btn-sm">
+                            <a href="/Checkout" >
+                            purchase
+                        </a>
+                        </button>
                         </div>
                     </div>
                     
@@ -51,5 +55,5 @@
                 </div>
         </div>
     </div>
-
+    
 </template>
