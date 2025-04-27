@@ -8,7 +8,7 @@ import About from './components/About.vue'
 import Contact from './components/Contact.vue'
 import Products from './components/Products.vue'
 import ProductPage from './components/ProductPage.vue'
-import Checkout from './components/Checkout.vue'
+import Checkout from './components/checkout.vue'
 
 const routes = [
     {path: '/', component: Home},
