@@ -14,7 +14,7 @@
     <header>
         <Navbar />
     </header>
-    <main class="flex flex-col mx-auto justify-center p-4 text-[#F7E1BC] bg-[#54372B] gap-4">
+    <main class="flex h-screen flex-col mx-auto justify-center p-4 text-[#F7E1BC] bg-[#54372B] gap-4">
         <h1 class="text-4xl text-center">About us</h1>
         <div v-for="item, index in images" :key="item">
             <div class="max-w-6xl flex gap-4 justify-center mx-auto flex-wrap">

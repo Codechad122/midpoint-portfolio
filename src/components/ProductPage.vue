@@ -3,6 +3,10 @@ import Navbar from './Navbar.vue'
 import Footer from './Footer.vue'
 
 import { useRoute } from 'vue-router'
+import { useCartStore } from '@/stores/cart'
+
+const store = useCartStore()
+
 const route = useRoute()
 const id = route.fullPath.split('/')[route.fullPath.split('/').length - 1]
 
@@ -94,6 +98,7 @@ const mapping = {
 }
 
 
+
 </script>
 
 <template>
@@ -119,7 +124,7 @@ const mapping = {
                 <h2 class="text-lg font-bold">Quantity</h2>
                 <div class="flex flex-wrap gap-4">
                     <input type="number" class="input w-24">
-                    <button class="btn shadow-md rounded-md">Add to cart</button>
+                    <button class="btn shadow-md rounded-md" @click="store.addItem({title: mapping[id].title, price: mapping[id].price})">Add to cart</button>
                     <button class="btn shadow-md rounded-md">Buy now</button>
                 </div>
             </div>
